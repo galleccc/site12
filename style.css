@@ -1,0 +1,38 @@
+.wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1400px;
+}
+span {
+    color: #147B43;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.homeh {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: white;
+}
+.ha {
+    display: flex;
+    gap: 80px;
+}
+.back {
+    background-color: #147B43;
+    width: 100px;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.ac {
+    color: white;
+}
+header {
+    position: fixed;
+    width: 1400px;
+}
