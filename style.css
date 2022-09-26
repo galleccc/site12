@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .wrapper {
     padding-left: 50px;
     padding-right: 50px;
-    width: 1400px;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
 }
 span {
     color: #147B43;
@@ -20,6 +26,10 @@ a {
     display: flex;
     gap: 80px;
 }
+.ha2 {
+    display: flex;
+    gap: 80px;
+}
 .back {
     background-color: #147B43;
     width: 100px;
@@ -35,4 +45,54 @@ a {
 header {
     position: fixed;
     width: 1400px;
+}
+main {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.hp {
+    font-size: 50px;
+    width: 500px;
+}
+.ha {
+    color: #147B43;
+}
+.da {
+    background-color: #F1F8F4;
+    width: 120px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 5px 0px #00000040;
+    margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+    .wrapper {
+        justify-content: center;
+        display: flex
+    }
+    .homeh {
+        display: block;
+    }
+    main {
+        display: block;
+    }
+    .ha {
+        flex-direction: column;
+    }
+    .back {
+        background-color: none;
+    }
+    header {
+        position: static;
+    }
+    body {
+        max-width: 768px
+    }
+    .img1 {
+    }
 }
